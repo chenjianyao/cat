@@ -1,0 +1,792 @@
+16-Apr-2019 18:58:07.023 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 
+ com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: 2 字节的 UTF-8 序列的字节 2 无效。
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:701)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:372)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1896)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.scanData(XMLEntityScanner.java:1389)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:801)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1034)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2982)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1448)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:553)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:604)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+
+16-Apr-2019 18:58:07.190 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 
+ com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: 2 字节的 UTF-8 序列的字节 2 无效。
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:701)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:372)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1896)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.scanData(XMLEntityScanner.java:1389)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:801)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1034)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2982)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1448)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:553)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:618)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:351)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+
+16-Apr-2019 18:58:07.192 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+16-Apr-2019 18:58:49.214 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.45
+16-Apr-2019 18:58:49.217 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 26 2017 20:06:07 UTC
+16-Apr-2019 18:58:49.218 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.45.0
+16-Apr-2019 18:58:49.218 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-Apr-2019 18:58:49.218 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Apr-2019 18:58:49.218 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Apr-2019 18:58:49.218 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+16-Apr-2019 18:58:49.218 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+16-Apr-2019 18:58:49.219 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Apr-2019 18:58:49.219 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45
+16-Apr-2019 18:58:49.219 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45
+16-Apr-2019 18:58:49.219 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\conf\logging.properties
+16-Apr-2019 18:58:49.220 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Apr-2019 18:58:49.220 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Apr-2019 18:58:49.220 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Apr-2019 18:58:49.220 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\endorsed
+16-Apr-2019 18:58:49.220 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45
+16-Apr-2019 18:58:49.221 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45
+16-Apr-2019 18:58:49.221 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\temp
+16-Apr-2019 18:58:49.222 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+16-Apr-2019 18:58:49.222 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16-Apr-2019 18:58:49.790 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+16-Apr-2019 18:58:51.355 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+16-Apr-2019 18:58:51.366 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+16-Apr-2019 18:58:51.367 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2467 ms
+16-Apr-2019 18:58:51.392 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+16-Apr-2019 18:58:51.393 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.45
+16-Apr-2019 18:58:51.438 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\cat.war
+16-Apr-2019 18:59:24.667 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Apr-2019 19:03:59.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.45
+16-Apr-2019 19:03:59.143 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 26 2017 20:06:07 UTC
+16-Apr-2019 19:03:59.143 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.45.0
+16-Apr-2019 19:03:59.144 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+16-Apr-2019 19:03:59.144 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Apr-2019 19:03:59.144 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Apr-2019 19:03:59.144 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+16-Apr-2019 19:03:59.145 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+16-Apr-2019 19:03:59.146 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Apr-2019 19:03:59.146 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45
+16-Apr-2019 19:03:59.146 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45
+16-Apr-2019 19:03:59.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\conf\logging.properties
+16-Apr-2019 19:03:59.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Apr-2019 19:03:59.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Apr-2019 19:03:59.147 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Apr-2019 19:03:59.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\endorsed
+16-Apr-2019 19:03:59.148 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45
+16-Apr-2019 19:03:59.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45
+16-Apr-2019 19:03:59.149 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\temp
+16-Apr-2019 19:03:59.150 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+16-Apr-2019 19:03:59.150 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+16-Apr-2019 19:03:59.693 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+16-Apr-2019 19:03:59.802 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+16-Apr-2019 19:03:59.812 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+16-Apr-2019 19:03:59.813 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 946 ms
+16-Apr-2019 19:03:59.837 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+16-Apr-2019 19:03:59.838 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.45
+16-Apr-2019 19:03:59.855 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\cat.war
+16-Apr-2019 19:04:04.524 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Apr-2019 19:04:15.363 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\cat.war has finished in 15,508 ms
+16-Apr-2019 19:04:15.365 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\docs
+16-Apr-2019 19:04:15.394 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\docs has finished in 28 ms
+16-Apr-2019 19:04:15.394 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\examples
+16-Apr-2019 19:04:16.309 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\examples has finished in 914 ms
+16-Apr-2019 19:04:16.309 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\host-manager
+16-Apr-2019 19:04:16.347 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\host-manager has finished in 38 ms
+16-Apr-2019 19:04:16.348 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\manager
+16-Apr-2019 19:04:16.376 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\manager has finished in 27 ms
+16-Apr-2019 19:04:16.376 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\ROOT
+16-Apr-2019 19:04:16.394 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory E:\example\openSourceProject\cat\smile\deploy\apache-tomcat-8.0.45\webapps\ROOT has finished in 18 ms
+16-Apr-2019 19:04:16.398 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+16-Apr-2019 19:04:16.426 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+16-Apr-2019 19:04:16.430 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 16616 ms
+16-Apr-2019 19:33:55.521 信息 [Thread-16] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+16-Apr-2019 19:33:55.583 信息 [Thread-16] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+16-Apr-2019 19:33:55.584 信息 [Thread-16] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+16-Apr-2019 19:33:55.630 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [cat] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Apr-2019 19:33:55.631 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [C3P0PooledConnectionPoolManager[identityToken->1hge0yqa2ahrarop7t6lu|3c0dff03]-AdminTaskTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+16-Apr-2019 19:33:55.633 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [C3P0PooledConnectionPoolManager[identityToken->1hge0yqa2ahrarop7t6lu|3c0dff03]-HelperThread-#0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:683)
+16-Apr-2019 19:33:55.634 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [C3P0PooledConnectionPoolManager[identityToken->1hge0yqa2ahrarop7t6lu|3c0dff03]-HelperThread-#1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:683)
+16-Apr-2019 19:33:55.635 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [C3P0PooledConnectionPoolManager[identityToken->1hge0yqa2ahrarop7t6lu|3c0dff03]-HelperThread-#2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:683)
+16-Apr-2019 19:33:55.637 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [C3P0PooledConnectionPoolManager[identityToken->1hge0yqa2ahrarop7t6lu|3c0dff03]-HelperThread-#3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:683)
+16-Apr-2019 19:33:55.639 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [C3P0PooledConnectionPoolManager[identityToken->1hge0yqa2ahrarop7t6lu|3c0dff03]-HelperThread-#4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:683)
+16-Apr-2019 19:33:55.640 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [C3P0PooledConnectionPoolManager[identityToken->1hge0yqa2ahrarop7t6lu|3c0dff03]-HelperThread-#5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:683)
+16-Apr-2019 19:33:55.641 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.643 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.644 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [Thread-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.currentThread(Native Method)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.addWaiter(AbstractQueuedSynchronizer.java:606)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:982)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+ java.util.concurrent.CountDownLatch.await(CountDownLatch.java:231)
+ org.unidal.cat.message.storage.internals.DefaultMessageProcessor.shutdown(DefaultMessageProcessor.java:189)
+ org.unidal.helper.Threads$RunnableThread.shutdown(Threads.java:300)
+ org.unidal.helper.Threads$ThreadGroupManager.shutdown(Threads.java:383)
+ org.unidal.helper.Threads$Manager.shutdownAll(Threads.java:253)
+ org.unidal.helper.Threads$Manager$1.run(Threads.java:166)
+16-Apr-2019 19:33:55.645 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [Thread-15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.parkAndCheckInterrupt(AbstractQueuedSynchronizer.java:836)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:997)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1304)
+ java.util.concurrent.CountDownLatch.await(CountDownLatch.java:231)
+ org.unidal.cat.message.storage.internals.DefaultMessageProcessor.shutdown(DefaultMessageProcessor.java:189)
+ org.unidal.cat.message.storage.internals.DefaultMessageDumper.closeMessageProcessor(DefaultMessageDumper.java:113)
+ org.unidal.cat.message.storage.internals.DefaultMessageDumper.awaitTermination(DefaultMessageDumper.java:82)
+ org.unidal.cat.message.storage.internals.DefaultMessageDumperManager.close(DefaultMessageDumperManager.java:50)
+ com.dianping.cat.consumer.dump.DumpAnalyzer.closeStorage(DumpAnalyzer.java:63)
+ com.dianping.cat.consumer.dump.DumpAnalyzer.doCheckpoint(DumpAnalyzer.java:83)
+ com.dianping.cat.analysis.RealtimeConsumer.doCheckpoint(RealtimeConsumer.java:79)
+ com.dianping.cat.CatHomeModule$1.run(CatHomeModule.java:66)
+16-Apr-2019 19:33:55.647 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.652 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.653 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.654 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.656 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.658 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.661 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.663 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.665 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.666 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-11] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.668 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.669 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-13] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.671 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.674 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.676 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.677 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-17] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.678 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-18] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.679 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-19] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.680 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-20] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.681 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-21] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.683 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-22] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.698 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-23] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.718 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-2-24] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.722 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.725 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.732 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.736 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.741 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.745 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.747 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.749 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.752 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.756 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-11] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.758 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.759 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-13] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.761 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.762 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.762 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.763 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-17] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.764 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-18] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.769 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-19] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.769 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-20] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.770 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-21] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.771 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-22] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.772 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-23] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.773 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [nioEventLoopGroup-3-24] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+ io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+ io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+ io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+ java.lang.Thread.run(Thread.java:745)
+16-Apr-2019 19:33:55.774 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [cat-StatusUpdateTask] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.dianping.cat.status.StatusUpdateTask.run(StatusUpdateTask.java:214)
+ java.lang.Thread.run(Thread.java:745)
+ org.unidal.helper.Threads$RunnableThread.run(Threads.java:294)
+16-Apr-2019 19:33:55.774 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [cat-timer-sync-task] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.dianping.cat.task.TimerSyncTask.run(TimerSyncTask.java:98)
+ java.lang.Thread.run(Thread.java:745)
+ org.unidal.helper.Threads$RunnableThread.run(Threads.java:294)
+16-Apr-2019 19:33:55.775 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [cat-logview-processor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.unidal.cat.message.storage.clean.LogviewProcessor.run(LogviewProcessor.java:211)
+ java.lang.Thread.run(Thread.java:745)
+ org.unidal.helper.Threads$RunnableThread.run(Threads.java:294)
+16-Apr-2019 19:33:55.775 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cat] appears to have started a thread named [cat-report-reload-task] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.dianping.cat.report.task.reload.ReportReloadTask.run(ReportReloadTask.java:82)
+ java.lang.Thread.run(Thread.java:745)
+ org.unidal.helper.Threads$RunnableThread.run(Threads.java:294)
+16-Apr-2019 19:33:55.776 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@72ad0988]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@32b8a602]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.776 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1@5f58bc66]) and a value of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext@45a30f4c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.779 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1@5f58bc66]) and a value of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext@32dc294c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.779 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1@5f58bc66]) and a value of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext@1efc7b9a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.780 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1@5f58bc66]) and a value of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext@45d4faf]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.781 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1@5f58bc66]) and a value of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext@5959f907]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.781 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1@5f58bc66]) and a value of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext@a1c3d29]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.782 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@72ad0988]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@77c1b75b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.782 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1@5f58bc66]) and a value of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext@190fbe3b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.784 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1@5f58bc66]) and a value of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext@f88eddc]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.784 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1@5f58bc66]) and a value of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext@64966c71]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.785 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext$1@5f58bc66]) and a value of type [org.unidal.webres.resource.runtime.ResourceRuntimeContext] (value [org.unidal.webres.resource.runtime.ResourceRuntimeContext@1e1764d7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.785 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@72ad0988]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@7a8dff48]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.786 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@32231bc8]) and a value of type [com.dianping.cat.message.internal.DefaultMessageManager.Context] (value [com.dianping.cat.message.internal.DefaultMessageManager$Context@65810c19]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.787 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [cat] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@72ad0988]) and a value of type [io.netty.util.internal.InternalThreadLocalMap] (value [io.netty.util.internal.InternalThreadLocalMap@4015eda2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+16-Apr-2019 19:33:55.807 信息 [Thread-16] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+16-Apr-2019 19:33:55.867 信息 [Thread-16] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+16-Apr-2019 19:33:55.927 信息 [Thread-16] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+16-Apr-2019 19:33:55.929 信息 [Thread-16] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
