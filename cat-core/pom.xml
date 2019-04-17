@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<parent>
 		<groupId>com.dianping.cat</groupId>
 		<artifactId>parent</artifactId>
-		<version>3.0.0</version>
+		<version>3.0.0.SMILE</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>cat-core</artifactId>
@@ -75,8 +76,8 @@
 								${basedir}/src/main/resources/META-INF/dal/model/server-filter-config-manifest.xml,
 								${basedir}/src/main/resources/META-INF/dal/model/sample-config-manifest.xml,
 								${basedir}/src/main/resources/META-INF/dal/model/business-report-config-manifest.xml,
-                ${basedir}/src/main/resources/META-INF/dal/model/atomic-message-config-manifest.xml,
-                ${basedir}/src/main/resources/META-INF/dal/model/tp-value-statistic-config-manifest.xml,
+								${basedir}/src/main/resources/META-INF/dal/model/atomic-message-config-manifest.xml,
+								${basedir}/src/main/resources/META-INF/dal/model/tp-value-statistic-config-manifest.xml,
 								${basedir}/src/main/resources/META-INF/dal/model/report-reload-config-manifest.xml,
 							</manifest>
 						</configuration>
@@ -95,7 +96,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.unidal.maven.plugins</groupId>
 				<artifactId>plexus-maven-plugin</artifactId>
 				<executions>
@@ -110,7 +111,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
 	<properties>
